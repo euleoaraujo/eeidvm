@@ -12,11 +12,15 @@ body{
 .cor{
     color: hsl(196, 93%, 11%);
     font-family: "ineer";
+    padding-top: 50px;
 }
+
 
 .photo{
     display: block;
-    margin: 70px auto;
+    margin: 40px auto;
     width: 350px;
     border-radius: 10px;
-  }
+}
+
+
