@@ -5,10 +5,12 @@
     src: url(img/StickySugary.ttf) format("truetype");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     background-color: white;
+    font-family: "Josefin Sans";
 }
-
 .cor{
     color: hsl(196, 93%, 11%);
     font-family: "ineer";
@@ -28,4 +30,5 @@ body{
 .text{
     text-align: justify;
 }
+
 
