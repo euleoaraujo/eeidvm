@@ -5,13 +5,13 @@
     src: url(img/StickySugary.ttf) format("truetype");
 }
 @font-face {
-    font-family: "arias";
+    font-family: "gtf";
     src: url(img/JetBrainsMono-Regular.ttf) format("truetype");
 }
 
 body{
     background-color: black;
-    font-family: "arias";
+    font-family: "gtf";
 }
 .cor{
     color: hsl(196, 93%, 11%);
