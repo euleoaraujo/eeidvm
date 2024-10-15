@@ -1,0 +1,22 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: "ineer";
+    src: url(img/StickySugary.ttf) format("truetype");
+}
+
+body{
+    background-color: black;
+}
+
+.cor{
+    color: hsl(196, 93%, 11%);
+    font-family: "ineer";
+}
+
+.photo{
+    display: block;
+    margin: 70px auto;
+    width: 350px;
+    border-radius: 10px;
+  }
