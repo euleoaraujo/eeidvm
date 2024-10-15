@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: "arias";
-    src: url(img/JetBrainsMono-Regular.ttf);
+    src: url(img/JetBrainsMono-Regular.ttf) format("truetype");
 }
 
 body{
