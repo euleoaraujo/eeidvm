@@ -4,13 +4,11 @@ function typeWriter(elemento) {
     textoArray.forEach((letra, i) => {
       setTimeout(() => {
         elemento.innerHTML += letra;
-      }, 75 * i);
+      }, 60 * i);
     });
   }
   
   const titulo = document.querySelector('.titulo');
   
   typeWriter(titulo);
-  
-  const buttons = document.querySelectorAll('.cascade-button');
   
