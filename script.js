@@ -12,3 +12,19 @@ function typeWriter(elemento) {
   
   typeWriter(titulo);
   
+
+  
+const myObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('show')
+    } else{
+      entry.target.classList.remove('show')
+    }
+  })
+})
+
+
+const element = document.querySelectorAll('.hidden')
+
+element.forEach((element) => myObserver.observe(element))

@@ -46,5 +46,26 @@ body{
     color: rgb(162, 162, 162);
 }
 .text-w{
-    color: rgb(117, 117, 13);
+    color: rgb(194, 194, 11);
+}
+.text-s{
+    color: white;
+}
+.titulo{
+    color: #103778;
+}
+section{
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+.show{
+    opacity: 1;
+    transition: all 1s;
+    transform: translateX(0);
 }
