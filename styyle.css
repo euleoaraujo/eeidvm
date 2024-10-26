@@ -1,13 +1,17 @@
 @charset "UFT-8";
 
 @font-face {
-    font-family: "ineer";
+    font-family: "gtr";
     src: url(img/StickySugary.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "gtf";
     src: url(img/JetBrainsMono-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "gti";
+    src: url();
 }
 
 body {
@@ -17,7 +21,7 @@ body {
 
 .cor {
     color: hsl(195, 95%, 15%);
-    font-family: "ineer";
+    font-family: "gtr";
     padding-top: 60px;
     font-size: 2.5em;
 }
